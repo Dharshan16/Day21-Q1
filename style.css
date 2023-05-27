@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    text-align: center;
+    background-color: black;
+  }
+  img {
+    border-radius: 50px;
+    margin-top: 50px;
+  }
+  .top {
+    background-color: rgb(28, 28, 28);
+    padding: 10px 0px;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .input {
+    margin-top: 25px;
+  }
+  input {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .btn1 {
+    padding: 6px 8px;
+    background-color: rgb(251, 55, 55);
+    color: white;
+    border-radius: 5px;
+  }
+  .btn1:hover {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: solid rgb(251, 55, 55);
+    cursor: pointer;
+  }
+  .card {
+    max-width: 55rem;
+    margin: auto;
+    width: 50%;
+    margin-top: 2.5rem;
+    text-align: left;
+  }
+  .card .card-body {
+    text-align: left;
+    color: black !important;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .card {
+      width: 100% !important ;
+      margin: auto;
+      width: 50%;
+      margin-top: 1rem;
+      text-align: left;
+    }
+  }
